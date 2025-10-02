@@ -1,0 +1,19 @@
+.profile-header {
+  display: flex;
+  align-items: center;
+  padding: 20px 0 10px 0;
+  gap: 22px;
+}
+.profile-avatar {
+  width: 104px;
+  height: 104px;
+  border-radius: 50%;
+  background: #eee;
+  border: 4px solid #fff;
+  box-shadow: 0 0 5px #bbb;
+}
+.profile-bio {
+  margin-top: 13px;
+  color: #222;
+  font-size: 17px;
+}

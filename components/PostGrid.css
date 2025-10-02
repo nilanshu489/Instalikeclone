@@ -1,0 +1,54 @@
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 7px;
+  padding-bottom: 15px;
+}
+.post-grid-item {
+  position: relative;
+  aspect-ratio: 1/1;
+  background: #f6f6f6;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px #ddd;
+  cursor: pointer;
+}
+.post-grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .18s;
+}
+.post-grid-item img:hover {
+  transform: scale(1.04);
+}
+.post-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(255,255,255,0) 60%, rgba(250,250,250,0.98) 95%);
+  padding: 11px 9px 9px 9px;
+  font-size: 16px;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  opacity: 0.93;
+}
+.post-caption {
+  margin-top: 3px;
+  font-size: 13px;
+  font-weight: 500;
+}
+.post-overlay i {
+  margin-right: 8px;
+  font-size: 18px;
+  color: #fd5f6d;
+}
+@media (max-width: 680px) {
+  .post-grid { grid-template-columns: repeat(2,1fr);}
+}
+@media (max-width: 420px) {
+  .post-grid { grid-template-columns: 1fr;}
+}

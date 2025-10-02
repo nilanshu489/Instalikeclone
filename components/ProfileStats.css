@@ -1,0 +1,10 @@
+.profile-stats {
+  display: flex;
+  gap: 33px;
+  font-size: 18px;
+  justify-content: center;
+  margin: 12px 0 20px 0;
+}
+.profile-stats span {
+  color: #222;
+}

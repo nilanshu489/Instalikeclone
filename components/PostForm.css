@@ -1,0 +1,32 @@
+.post-form {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.post-form input[type="text"] {
+  flex: 1;
+  padding: 7px 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 17px;
+}
+.post-form button {
+  padding: 7px 19px;
+  background: linear-gradient(90deg, #fd5f6d, #ffc371);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background .2s;
+}
+.post-form button:hover {
+  background: linear-gradient(90deg, #ffc371, #fd5f6d);
+}
+.preview-img {
+  margin-right: 7px;
+  border-radius: 7px;
+  box-shadow: 0 2px 4px #eee;
+}

@@ -1,0 +1,18 @@
+.navbar {
+  background: linear-gradient(90deg, #fd5f6d, #ffc371);
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 14px 30px;
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-icons {
+  font-size: 23px;
+  cursor: pointer;
+}
+.nav-icons i:hover {
+  color: #222;
+}

@@ -1,0 +1,24 @@
+.stories-bar {
+  display: flex;
+  gap: 15px;
+  padding: 20px 0 10px 0;
+  justify-content: flex-start;
+  overflow-x: auto;
+}
+.story-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.story-item img {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fd5f6d;
+}
+.story-username {
+  font-size: 13px;
+  margin-top: 5px;
+  color: #333;
+}

@@ -1,0 +1,44 @@
+.dm-popup {
+  position: fixed;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 2px 24px #e4e4e4;
+  width: 340px;
+  z-index: 9999;
+  border: 1px solid #eee;
+  animation: popupFade .4s;
+}
+@keyframes popupFade {
+  from { opacity: 0; transform: translate(-50%, 120px);}
+  to { opacity: 1; transform: translate(-50%, 0);}
+}
+.dm-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 21px 5px 21px;
+  border-bottom: 1px solid #eee;
+  font-size: 19px;
+  font-weight: bold;
+}
+.dm-content {
+  padding: 15px 24px;
+}
+.dm-content ul {
+  list-style: none;
+  padding: 0;
+}
+.dm-content li {
+  margin-bottom: 11px;
+  font-size: 15px;
+}
+.dm-header button {
+  border: none;
+  background: transparent;
+  font-size: 31px;
+  font-weight: bold;
+  cursor: pointer;
+}
